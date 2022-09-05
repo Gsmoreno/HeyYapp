@@ -1,1 +1,5 @@
 # HeyYapp
+##### Projeto desenvolvido pelos alunos [Nicolas Ribeiro](https://github.com/Nicolas-R1beiro), [Vitória Brito](https://github.com/Vitoriabrt), [Gabriel Gustavo](https://github.com/gabrielguxtavo), [Jorge David](https://github.com/JorgeDC99), [Bruno Nunes](https://github.com/BrunoImanaka), [Gustavo Moreno](https://github.com/Gsmoreno), [João Santos](https://github.com/devjoaosantos), [Lucas Rodrigues](https://github.com/lucasryg), [Larissa Navarro](https://github.com/Navarrocrn).
+
+HeYapp é site de mensagens instantâneas para smartphones e computadores. 
+Sendo permitido a entrada de forma anônima na qual o usuário poderá entrar apenas com seu apelido e mandar mensagens para outros usuários, ou de forma registrada através de seu e-mail e senha, onde terá acesso para personalizar seu perfil da maneira que quiser.
