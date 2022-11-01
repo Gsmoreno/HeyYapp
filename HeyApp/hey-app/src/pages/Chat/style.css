@@ -1,0 +1,114 @@
+.esquerda {
+    background-color: #000;
+    width: 30vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.direita {
+    background-color: #fdaf00;
+    width: 70vw;
+    height: 10vh;
+}
+
+.cima {
+    display: flex;
+    background-image: url("../images/logo.svg");
+    background-color: rgb(31, 31, 31);
+    background-repeat: no-repeat;
+    background-size: 65vw;
+    background-position: right;
+    overflow-y: hidden;
+
+
+
+
+}
+
+.ctt {
+    width: 30vw;
+    height: 100vh;
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center ;
+}
+
+.arruma {
+    display: flex;
+    flex-direction: column;
+}
+
+.borra {
+    width: 70vw;
+    height: 100vh;
+    backdrop-filter: blur(8px);
+}
+
+.esquerda>img {
+    width: 4vw;
+    margin: 1em;
+}
+
+.direita>img {
+    width: 4vw;
+    margin-left: 3em !important;
+    margin: 1em;
+
+}
+
+#manda{
+    width: 60vw;
+    height: 5vh;
+    border-radius: 15px;
+    
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -8em;
+    position: relative;
+    margin-right: 3em;
+}
+
+.input > img{
+    width: 2vw;
+    position: relative;
+    left: 5em;
+    margin-left: 1em;
+}
+
+#manda::placeholder{
+    color: #000;
+    padding-left: 1em;
+    font-size: 1.1rem;
+    padding-top: 1em;
+}
+
+.mano{
+    width: 25vw;
+    height: 10vh;
+    border-radius: 10px;
+    background-color: #fdaf00;
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3em;
+}
+
+.mano > img{
+    width: 3vw;
+    margin: 1em;
+}
+
+#env{
+    left: -4em !important;
+}
+
+#manda[type="text"]{
+    padding-left: 7em;
+}

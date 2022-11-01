@@ -1,0 +1,140 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.astro {
+    background: url("../images/background.png") #1E1E1E repeat-y;
+    background-size: 100%;
+    overflow-y: hidden;
+    -webkit-filter: blur(15px);
+    -moz-filter: blur(15px);
+    -o-filter: blur(15px);
+    -ms-filter: blur(15px);
+    filter: blur(15px);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+main > img {
+    position: relative;
+    height: 100vh;
+}
+
+/* Texts */
+#texts {
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 13em;
+    font-size: 0.78rem;
+}
+
+#texts > h2 {
+    text-transform: capitalize;
+    font-size: 4em;
+    line-height: 1em;
+}
+
+#texts > p {
+    margin-top: 1em;
+}
+
+#texts > p > a {
+    color: #000;
+    font-weight: bold;
+}
+
+/* Form */
+main > form {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 20em;
+}
+
+form > label {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16.2px;
+    text-transform: uppercase;
+    margin-left: 4px;
+    letter-spacing: 2px;
+    color: #FDAF00;
+}
+
+/* Form Inputs */
+#name, #email, #password, #repeat-password {
+    border: none;
+    border-radius: 12px;
+    width: 27em;
+    height: 4em;
+    padding-left: 16px;
+    background-color: #FDAF00;
+    color: #fff;
+}
+
+#name::placeholder, #email::placeholder, #password::placeholder, #repeat-password::placeholder {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+form > input {
+    margin-bottom: 1.5em;
+}
+
+/* Submit Input */
+#submit {
+    border: none;
+    border-radius: 12px;
+    height: 2.7em; 
+    background-color: #1C2120;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    margin-bottom: 1.5em;
+}
+
+@media only screen and (max-width: 1366px) {
+
+    main form {
+        margin-top: 17em;
+    }
+
+    #texts {
+        top: 8em;
+    }
+
+    #texts > h2 {
+        font-size: 2em;
+    }
+
+    #texts > p {
+        margin-top: 0.5em;
+        font-size: small;
+    }
+
+    form > label {
+        font-size: 13px;
+    }
+
+    #name, #email, #password, #repeat-password {
+        width: 24em;
+        height: 3em;
+    }
+
+    #submit {
+        height: 2em; 
+    }
+}
